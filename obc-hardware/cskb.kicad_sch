@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid c63f6aa5-206b-488d-9d44-b65a813af4e7)
+  (uuid 243232b1-30bb-429b-9294-4b4a1be0da3c)
 
   (paper "A4")
 
@@ -622,12 +622,10 @@
   (no_connect (at 180.34 129.54) (uuid 2ce32063-a57c-4407-8da0-724dfece2b63))
   (no_connect (at 167.64 76.2) (uuid 2fcfc03a-9972-4c8c-a44c-0c9bb2313ec5))
   (no_connect (at 138.43 124.46) (uuid 3316a382-9c76-4c37-a213-50b83321549e))
-  (no_connect (at 180.34 116.84) (uuid 34b6fbbc-a1b6-428c-8539-03694e575ac7))
   (no_connect (at 180.34 76.2) (uuid 34c8a5d0-57f2-499e-aa33-0bc2f69fe12e))
   (no_connect (at 167.64 71.12) (uuid 34dcc776-aff4-492a-bff6-c598136c4e47))
   (no_connect (at 138.43 129.54) (uuid 35fa88ed-eedd-42c3-a48e-c6109f9c9b60))
   (no_connect (at 138.43 93.98) (uuid 36232f53-a441-49d5-bdbf-6a9c04556127))
-  (no_connect (at 180.34 114.3) (uuid 3cbf06da-12bf-4ab5-a2a2-ad6eab5d6fb2))
   (no_connect (at 125.73 78.74) (uuid 3d682cf7-1193-4bd8-9f40-8ddb655bcb67))
   (no_connect (at 138.43 73.66) (uuid 41a404b6-a0b5-458d-ad11-0eacf2d0a678))
   (no_connect (at 138.43 68.58) (uuid 4337b2ef-37d6-473f-b7aa-b80e0a1ed505))
@@ -692,7 +690,6 @@
   (no_connect (at 167.64 116.84) (uuid f2e5ad5f-b969-4cdc-abe6-742fae6108af))
   (no_connect (at 167.64 111.76) (uuid f6812df2-6f3f-44d4-bfbc-91d3a76b7607))
   (no_connect (at 125.73 88.9) (uuid f6f7f4c0-3935-407d-bae3-168f9f81702c))
-  (no_connect (at 180.34 119.38) (uuid fb6587d2-fad5-40aa-90be-5d4d28be849c))
   (no_connect (at 138.43 86.36) (uuid fe4631f0-d39b-4dc6-8dbb-ceea8fd6e9d0))
 
   (wire (pts (xy 180.34 99.06) (xy 187.96 99.06))
@@ -822,6 +819,19 @@
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 113.9153 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
+  )
+
+  (hierarchical_label "H2-40" (shape bidirectional) (at 180.34 116.84 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5afb6f46-09ff-4acb-8356-fb86452825d1)
+  )
+  (hierarchical_label "H2-42" (shape bidirectional) (at 180.34 119.38 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8e9f55ca-a95e-404b-b7a1-6396350c9363)
+  )
+  (hierarchical_label "H2-38" (shape bidirectional) (at 180.34 114.3 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ff1a308c-518b-4839-9645-c598044dee84)
   )
 
   (symbol (lib_id "power:GND") (at 162.56 78.74 0) (unit 1)

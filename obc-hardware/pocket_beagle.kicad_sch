@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 450654c6-806b-407c-8e51-5357d4e0fd1c)
+  (uuid ecbdab3c-c115-4169-b75c-5d96c63df786)
 
   (paper "A4")
 
@@ -1105,6 +1105,14 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 23b9b673-9294-4132-93f6-42a860fe57f6)
   )
+  (hierarchical_label "GPIO89" (shape bidirectional) (at 111.76 87.63 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5bc4d5ca-b3d9-4cb8-a282-33c50f49b9a2)
+  )
+  (hierarchical_label "GPIO58" (shape bidirectional) (at 111.76 74.93 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6291a284-eff2-4a12-a29c-21f8ec81aa2f)
+  )
   (hierarchical_label "AIN1" (shape input) (at 107.95 95.25 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 73fbeb76-af2a-47a9-94bf-f7a62f53374c)
@@ -1112,6 +1120,10 @@
   (hierarchical_label "INT1" (shape output) (at 106.68 49.53 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8a9d6745-ca41-48d8-86b7-cab795a92d90)
+  )
+  (hierarchical_label "GPIO23" (shape bidirectional) (at 111.76 52.07 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid eb928b6a-6359-4b75-8d0e-717897770c51)
   )
 
   (symbol (lib_id "power:GND") (at 182.88 29.21 0) (unit 1)
